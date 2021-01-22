@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #3963ff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: background 0.5s;
+}
+
+#navbar ul li a:hover {
+  background-color: #3963ff;
+}
+
+#showcase {
+  background: url(https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80s)
+    no-repeat center center/cover;
+  height: 91.7vh;
+}
+
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.showcase-container h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.showcase-container .btn {
+  font-size: 1.5rem;
+  padding: 1rem 10rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.showcase-container .btn:hover {
+  background: #3693ff;
+  color: #fff;
+}
+
+.btn {
+  color: #3693ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid #3693ff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 2.5rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.period {
+  color: red;
+}
+
+/* @media all and (max-height: 900px) {
+
+} */
